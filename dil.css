@@ -6,9 +6,10 @@
 }
 .ank{
     display: grid;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
     place-items: center;
+    margin:250px;
 }
 
 .dil{
@@ -23,7 +24,7 @@
     content: "";
     width: 200px;
     height: 200px;
-    background-color: #fb92d6;
+    background-color: #141414;
     position: absolute;
     border-radius: 50%;
 
