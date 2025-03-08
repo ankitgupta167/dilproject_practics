@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.ank{
+    display: grid;
+    /* align-items: center;
+    justify-content: center; */
+    place-items: center;
+}
+
+.dil{
+    width: 200px;
+    height:200px;
+    background-color: #fb92d6;
+    transform: rotate(45deg);
+   
+}
+.dil::before,
+.dil::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: #fb92d6;
+    position: absolute;
+    border-radius: 50%;
+
+}
+.dil::before{
+    left: -100px;
+}
+.dil::after{
+    top: -100px;
+
+}
+.dil >p {
+    position: absolute;
+    z-index: 100;
+    font-size: 40px;
+    transform: rotate(-45deg);
+}
